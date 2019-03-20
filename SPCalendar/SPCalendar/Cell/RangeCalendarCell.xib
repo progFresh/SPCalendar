@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="RangeCalendarCell" customModule="SPCalendar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="343" height="313"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="343" height="313"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yow-xo-ycA">
+                        <rect key="frame" x="0.0" y="-15" width="343" height="343"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vqH-B1-jck">
+                                <rect key="frame" x="0.0" y="0.0" width="343" height="343"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vqH-B1-jck" firstAttribute="height" secondItem="Yow-xo-ycA" secondAttribute="height" id="25s-XQ-Uli"/>
+                            <constraint firstItem="vqH-B1-jck" firstAttribute="centerX" secondItem="Yow-xo-ycA" secondAttribute="centerX" id="LY3-C8-zKG"/>
+                            <constraint firstItem="vqH-B1-jck" firstAttribute="centerY" secondItem="Yow-xo-ycA" secondAttribute="centerY" id="gXX-tP-oon"/>
+                            <constraint firstItem="vqH-B1-jck" firstAttribute="width" secondItem="Yow-xo-ycA" secondAttribute="width" id="hje-SN-AAc"/>
+                            <constraint firstAttribute="width" secondItem="Yow-xo-ycA" secondAttribute="height" multiplier="1:1" id="nm6-Is-aRm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Yow-xo-ycA" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="5tk-ou-oPB"/>
+                <constraint firstItem="Yow-xo-ycA" firstAttribute="centerY" secondItem="ZTg-uK-7eu" secondAttribute="centerY" id="o5V-RG-oN9"/>
+                <constraint firstItem="Yow-xo-ycA" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="rIe-gK-kRM"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="343" height="313"/>
+            <connections>
+                <outlet property="backView" destination="vqH-B1-jck" id="IH4-Si-OYJ"/>
+                <outlet property="lightView" destination="Yow-xo-ycA" id="PHX-pa-NH0"/>
+            </connections>
+            <point key="canvasLocation" x="13.6" y="155.17241379310346"/>
+        </collectionViewCell>
+    </objects>
+</document>
