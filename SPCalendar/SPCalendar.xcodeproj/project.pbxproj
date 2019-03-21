@@ -24,6 +24,8 @@
 		EE53B1BF2241A9180027FE8C /* CalendarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53B1BD2241A9180027FE8C /* CalendarHeader.swift */; };
 		EE53B1C02241A9180027FE8C /* CalendarHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE53B1BE2241A9180027FE8C /* CalendarHeader.xib */; };
 		EE53B1C42241AAE80027FE8C /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53B1C32241AAE80027FE8C /* DateExtensions.swift */; };
+		EE53B1C722430F350027FE8C /* FullSizeRender-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE53B1C622430F350027FE8C /* FullSizeRender-2.jpg */; };
+		EE53B1C922430F3F0027FE8C /* FullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE53B1C822430F3F0027FE8C /* FullSizeRender.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		EE53B1BD2241A9180027FE8C /* CalendarHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeader.swift; sourceTree = "<group>"; };
 		EE53B1BE2241A9180027FE8C /* CalendarHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalendarHeader.xib; sourceTree = "<group>"; };
 		EE53B1C32241AAE80027FE8C /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		EE53B1C622430F350027FE8C /* FullSizeRender-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "FullSizeRender-2.jpg"; sourceTree = "<group>"; };
+		EE53B1C822430F3F0027FE8C /* FullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FullSizeRender.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 		EE53B17522419B110027FE8C = {
 			isa = PBXGroup;
 			children = (
+				EE53B1C522430F210027FE8C /* Assets */,
 				EE53B18022419B110027FE8C /* SPCalendar */,
 				EE53B19522419B140027FE8C /* SPCalendarTests */,
 				EE53B1A022419B140027FE8C /* SPCalendarUITests */,
@@ -219,6 +224,15 @@
 				EE53B1C32241AAE80027FE8C /* DateExtensions.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		EE53B1C522430F210027FE8C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EE53B1C622430F350027FE8C /* FullSizeRender-2.jpg */,
+				EE53B1C822430F3F0027FE8C /* FullSizeRender.jpg */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		F56FE2383D79DFCE28983986 /* Pods */ = {
@@ -345,7 +359,9 @@
 				EE53B18C22419B130027FE8C /* LaunchScreen.storyboard in Resources */,
 				EE53B1B92241A1400027FE8C /* RangeCalendarCell.xib in Resources */,
 				EE53B18922419B130027FE8C /* Assets.xcassets in Resources */,
+				EE53B1C922430F3F0027FE8C /* FullSizeRender.jpg in Resources */,
 				EE53B1C02241A9180027FE8C /* CalendarHeader.xib in Resources */,
+				EE53B1C722430F350027FE8C /* FullSizeRender-2.jpg in Resources */,
 				EE53B18722419B110027FE8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
